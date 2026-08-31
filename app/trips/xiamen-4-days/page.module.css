@@ -1022,9 +1022,21 @@
 .akOverview > .shell { width: min(1280px, calc(100% - 96px)); margin: 0 auto; display: grid; grid-template-columns: 1.85fr 1fr; gap: 88px; }
 .akOverviewIntro h2 { max-width: 720px; margin: 10px 0 24px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(38px, 4.5vw, 62px); font-weight: 500; line-height: 1.12; letter-spacing: -.045em; }
 .akOverviewIntro > p:last-child { max-width: 700px; margin: 0; font-size: 17px; line-height: 1.8; color: var(--classic-muted); }
+.akOverviewIntro > p:not(:last-child) { max-width: 700px; margin: 0 0 22px; font-size: 17px; line-height: 1.8; color: var(--classic-muted); }
+.akSignature { margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--classic-line); color: var(--classic-muted); font-size: 11px; letter-spacing: .2em; line-height: 1.8; }
 .akOverviewMeta { display: grid; align-content: start; gap: 18px; padding-top: 4px; border-top: 1px solid var(--classic-line); }
 .akOverviewMeta p, .akOverviewMeta span { margin: 0; color: var(--classic-muted); font-size: 11px; letter-spacing: .16em; }
 .akOverviewMeta strong { font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 500; line-height: 1.45; }
+.akMetaLead { line-height: 1.7; }
+.akRouteTimeline { position: relative; display: grid; gap: 22px; margin: 10px 0 8px; padding: 0 0 8px 26px; list-style: none; }
+.akRouteTimeline::before { position: absolute; top: 10px; bottom: 12px; left: 4px; width: 1px; background: #9b9d96; content: ""; }
+.akRouteTimeline li { position: relative; display: grid; gap: 3px; }
+.akRouteTimeline li::before { position: absolute; top: 7px; left: -26px; width: 7px; height: 7px; border-radius: 50%; background: #20221f; content: ""; }
+.akRouteTimeline b { font-size: 18px; }
+.akRouteTimeline small { color: var(--classic-muted); font-size: 10px; letter-spacing: .18em; }
+.akMetaFacts { display: grid; gap: 15px; margin-top: 8px; padding-top: 20px; border-top: 1px solid var(--classic-line); }
+.akMetaFacts span { color: var(--classic-muted); font-size: 10px; letter-spacing: .16em; line-height: 1.6; }
+.akMetaFacts em { color: var(--classic-ink); font-size: 13px; font-style: normal; letter-spacing: .08em; }
 .akOverviewMeta a { margin-top: 14px; color: #40574a; font-weight: 700; text-decoration: none; }
 @media (max-width: 700px) {
   .akHero { min-height: 590px; }
@@ -1034,6 +1046,7 @@
   .akOverview > .shell { width: calc(100% - 40px); display: block; }
   .akOverviewIntro h2 { font-size: 40px; }
   .akOverviewMeta { margin-top: 48px; }
+  .akOverviewMeta { gap: 14px; }
 }
 
 .compactPage { background: #f7f5f0; color: #20221f; }
