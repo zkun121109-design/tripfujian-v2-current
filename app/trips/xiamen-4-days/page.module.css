@@ -1233,6 +1233,72 @@
 .classicSticky small { color: var(--classic-muted); line-height: 1.5; }
 .classicSticky .classicPrimary { justify-content: center; }
 .classicMobileCta { display: none; }
+
+/* Product detail experiment: compact route-first hierarchy. */
+.productPage { overflow-x: clip; }
+.productHero .shell { padding-bottom: 54px; }
+.productHeroEyebrow { margin-bottom: 18px; letter-spacing: .16em; font-size: 12px; }
+.productHeroRoute { margin: 20px 0 8px; font-size: clamp(18px, 2vw, 24px); }
+.productHeroMeta { margin: 0 0 26px; color: rgb(255 255 255 / 78%); font-size: 15px; }
+.productHeroTrust { margin: 14px 0 0; color: rgb(255 255 255 / 68%); font-size: 13px; }
+.productRouteTable { padding: 76px 0 64px; background: #f7f5f0; }
+.productRouteTable > .shell, .productDestination > .shell, .productMidCta > .shell, .productAdjust > .shell, .productArrange > .shell { width: min(1120px, calc(100% - 96px)); margin: 0 auto; }
+.productRouteTable h2, .productAdjust h2, .productArrange h2 { margin: 0; font-size: clamp(36px, 4.5vw, 58px); letter-spacing: -.055em; line-height: 1.12; }
+.productRouteRows { margin-top: 34px; border-top: 1px solid var(--classic-line); }
+.productRouteRow { display: grid; grid-template-columns: 88px 190px minmax(0, 1fr); gap: 20px; align-items: center; min-height: 66px; border-bottom: 1px solid var(--classic-line); }
+.productRouteNumber { color: #40574a; font-size: 14px; font-weight: 700; letter-spacing: .12em; }
+.productRouteRow strong { font-size: 18px; }
+.productRouteRow > span:last-child { color: var(--classic-muted); }
+.productRouteNote { margin: 22px 0 0; color: var(--classic-muted); font-size: 14px; }
+.productDestination { padding: 108px 0; background: #eeece6; }
+.productDestination > .shell { display: grid; grid-template-columns: 1.2fr .8fr; gap: clamp(42px, 7vw, 100px); align-items: center; }
+.productDestinationImage { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; }
+.productDestinationCopy { min-width: 0; }
+.productDestinationPlace { margin: 12px 0 0; color: var(--classic-muted); font-size: 16px; }
+.productDestinationCopy h2 { margin: 20px 0 18px; font-size: clamp(34px, 4vw, 56px); letter-spacing: -.055em; line-height: 1.12; }
+.productDestinationCopy > p:not(.classicEyebrow):not(.productDestinationPlace):not(.productTags) { max-width: 430px; margin: 0; color: var(--classic-muted); font-size: 17px; line-height: 1.8; }
+.productTags { margin: 28px 0 0; color: #40574a; font-size: 14px; line-height: 1.7; }
+.productDestinationTulou { background: #f7f5f0; }
+.productDestinationTulou > .shell { grid-template-columns: .78fr 1.42fr; }
+.productDestinationTulou .productDestinationImage { aspect-ratio: 16 / 9; }
+.productDestinationQuanzhou { background: #eeece6; }
+.productDestinationQuanzhou > .shell { grid-template-columns: .8fr 1.2fr; }
+.productDestinationQuanzhou .productDestinationImage { order: 2; }
+.productMidCta { padding: 48px 0; background: #f7f5f0; }
+.productMidCta > .shell { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 24px; border-top: 1px solid var(--classic-line); border-bottom: 1px solid var(--classic-line); padding: 24px 0; }
+.productMidCta p { margin: 0; font-size: 22px; font-weight: 700; }
+.productMidCta span { color: var(--classic-muted); }
+.productMidCta a, .productTextCta { margin-left: auto; color: #40574a; font-weight: 700; text-decoration: none; }
+.productAdjust { padding: 106px 0; background: #f7f5f0; }
+.productAdjust > .shell > p:not(.classicEyebrow) { margin: 18px 0 0; color: var(--classic-muted); }
+.productAdjustList { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 32px; margin: 40px 0 34px; padding: 0; list-style: none; }
+.productAdjustList li { padding: 16px 0; border-top: 1px solid var(--classic-line); color: var(--classic-ink); }
+.productArrange { padding: 92px 0 108px; background: #eeece6; }
+.productArrangeGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+.productArrangeGrid article { padding-top: 16px; border-top: 1px solid var(--classic-line); }
+.productArrangeGrid span { color: #40574a; font-size: 12px; font-weight: 700; letter-spacing: .14em; }
+.productArrangeGrid h3 { margin: 22px 0 8px; font-size: 22px; }
+.productArrangeGrid p { margin: 0; color: var(--classic-muted); line-height: 1.7; }
+@media (max-width: 700px) {
+  .productHero .shell { padding-bottom: 38px; }
+  .productHeroRoute { font-size: 17px; }
+  .productHeroMeta { font-size: 14px; line-height: 1.7; }
+  .productRouteTable, .productDestination, .productAdjust, .productArrange { padding: 72px 0; }
+  .productRouteTable > .shell, .productDestination > .shell, .productMidCta > .shell, .productAdjust > .shell, .productArrange > .shell { width: calc(100% - 40px); }
+  .productRouteTable h2, .productAdjust h2, .productArrange h2 { font-size: 36px; }
+  .productRouteRow { grid-template-columns: 48px 1fr; gap: 8px 14px; min-height: 68px; padding: 10px 0; }
+  .productRouteRow > span:last-child { grid-column: 2; font-size: 14px; }
+  .productDestination > .shell, .productDestinationTulou > .shell, .productDestinationQuanzhou > .shell { grid-template-columns: 1fr; gap: 32px; }
+  .productDestinationCopy h2 { font-size: 38px; }
+  .productDestinationTulou .productDestinationImage { order: -1; aspect-ratio: 4 / 3; }
+  .productDestinationQuanzhou .productDestinationImage { order: 2; }
+  .productMidCta { padding: 34px 0; }
+  .productMidCta > .shell { display: grid; gap: 8px; padding: 20px 0; }
+  .productMidCta a, .productTextCta { margin-left: 0; margin-top: 8px; }
+  .productAdjustList, .productArrangeGrid { grid-template-columns: 1fr; gap: 0; margin-top: 30px; }
+  .productAdjustList li, .productArrangeGrid article { padding: 14px 0; }
+  .productArrangeGrid h3 { margin: 16px 0 6px; }
+}
 @media (max-width: 700px) {
   .classicHero { min-height: 680px; }
   .classicHero > .shell, .classicSection > .shell, .classicSplit > .shell, .classicFaq > .shell, .classicFinal > .shell, .classicDays > .shell { width: calc(100% - 40px); }
