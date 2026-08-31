@@ -1041,6 +1041,13 @@
 .expV3Page .akHero { min-height: 78vh; }
 .expV3Page .akHero h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(58px, 7vw, 92px); font-weight: 500; }
 .expV3Page .akOverviewIntro h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
+.expV3Page .akHero { position: relative; min-height: 78vh; align-items: end; }
+.expV3Page .akHero > img { position: absolute; inset: 0; z-index: 0; width: 100%; height: 100%; object-fit: cover; }
+.expV3Page .akHero::after { z-index: 1; }
+.expV3Page .akHero > .shell { position: relative; z-index: 2; display: block; width: min(1280px, calc(100% - 96px)); margin: 0 auto; padding: 0 0 64px; color: #fff; }
+.expV3Page .akOverview { min-height: 0; }
+.expV3Page .akOverview > .shell { display: grid; grid-template-columns: minmax(0, 65fr) minmax(280px, 35fr); align-items: start; }
+.expV3Page .akOverviewIntro, .expV3Page .akOverviewMeta { min-width: 0; }
 @media (max-width: 700px) {
   .akHero { min-height: 590px; }
   .akHero h1 { font-size: 54px; }
@@ -1049,6 +1056,8 @@
   .akOverview > .shell { width: calc(100% - 40px); display: block; }
   .akOverviewIntro h2 { font-size: 40px; }
   .akOverviewMeta { margin-top: 48px; }
+  .expV3Page .akHero > .shell { width: calc(100% - 40px); padding-bottom: 42px; }
+  .expV3Page .akOverview > .shell { display: block; }
   .akOverviewMeta { gap: 14px; }
 }
 
