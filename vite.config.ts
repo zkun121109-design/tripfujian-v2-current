@@ -45,7 +45,7 @@ export default defineConfig(async () => {
 
   return {
     server: {
-      allowedHosts: ["restrictions-cars-mom-hose.trycloudflare.com"],
+      allowedHosts: ["analyses-leonard-coordination-test.trycloudflare.com"],
       ...(isCodexSeatbeltSandbox
         ? { watch: { useFsEvents: false, usePolling: true } }
         : {}),
