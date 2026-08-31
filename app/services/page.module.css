@@ -1,0 +1,84 @@
+.page { background: #fff; }
+.hero { display: grid; grid-template-columns: .86fr 1.14fr; gap: clamp(48px, 7vw, 104px); align-items: center; min-height: 680px; padding-block: 88px; }
+.heroCopy h1 { margin: 0; font-size: clamp(52px, 5.4vw, 72px); line-height: 1.03; letter-spacing: -.05em; }
+.heroCopy h1 span { display: block; }
+.heroCopy > p:last-of-type { max-width: 560px; margin: 26px 0 0; color: var(--ds-muted); font-size: 17px; line-height: 1.85; }
+.actions { display: flex; gap: 26px; align-items: center; margin-top: 34px; }
+.primaryAction { display: inline-flex; min-height: 48px; padding: 0 21px; align-items: center; border-radius: 9px; background: var(--ds-accent); color: #fff; font-size: 14px; font-weight: 650; }
+.textAction { color: var(--ds-ink); font-size: 14px; font-weight: 650; }
+.textAction span { margin-left: 8px; }
+.heroMedia { position: relative; min-height: 520px; overflow: visible; }
+.heroMedia > img { border-radius: 18px; object-fit: cover; }
+.heroInset { position: absolute; right: -28px; bottom: -34px; width: 42%; height: 42%; overflow: hidden; border: 8px solid #fff; border-radius: 16px; box-shadow: 0 20px 46px rgb(21 22 22 / 16%); }
+.heroInset img, .vehicleMedia img { object-fit: cover; }
+
+.hotelSection, .processSection { padding-block: 96px; background: var(--ds-subtle); }
+.sectionHead, .coverageHead { display: grid; grid-template-columns: minmax(0, .92fr) minmax(320px, .68fr); gap: clamp(48px, 8vw, 112px); align-items: end; }
+.sectionHead h2, .coverageHead h2, .vehicleCopy h2, .processHead h2, .cta h2 { margin: 0; font-size: var(--ds-section-title); line-height: 1.1; letter-spacing: -.04em; }
+.sectionHead > div:last-child > p, .coverageHead > p, .vehicleCopy > p { margin: 0; color: var(--ds-muted); font-size: 16px; line-height: 1.8; }
+.levels { display: flex; gap: 9px; margin-top: 22px; }
+.levels span { padding: 8px 12px; border: 1px solid var(--ds-line); border-radius: 999px; background: #fff; color: var(--ds-ink); font-size: 12px; font-weight: 650; }
+.hotelPoints { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin: 56px 0 94px; border-block: 1px solid var(--ds-line); }
+.hotelPoints article { padding: 32px 34px 34px 0; }
+.hotelPoints article + article { padding-left: 34px; border-left: 1px solid var(--ds-line); }
+.hotelPoints span, .vehicleItems > article > span, .process article > span { color: var(--ds-accent); font-size: 11px; font-weight: 750; letter-spacing: .1em; }
+.hotelPoints h3, .vehicleItems h3, .process h3, .regions h3 { margin: 13px 0 8px; font-size: 18px; line-height: 1.4; }
+.hotelPoints p, .vehicleItems p, .process p, .regions p { margin: 0; color: var(--ds-muted); font-size: 14px; line-height: 1.75; }
+.coverageHead { align-items: start; }
+.regions { display: grid; grid-template-columns: repeat(5, 1fr); margin-top: 38px; border-top: 1px solid var(--ds-line); }
+.regions article { min-height: 142px; padding: 25px 22px 24px 0; border-bottom: 1px solid var(--ds-line); }
+.regions article:not(:nth-child(5n + 1)) { padding-left: 22px; border-left: 1px solid var(--ds-line); }
+.regions h3 { margin-top: 0; }
+.regions p { font-size: 13px; }
+.note { max-width: 840px; margin: 24px 0 0; color: var(--ds-soft); font-size: 12px; line-height: 1.75; }
+
+.vehicleSection { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(52px, 8vw, 112px); align-items: center; padding-block: 104px; }
+.vehicleMedia { position: relative; min-height: 540px; overflow: hidden; border-radius: 18px; }
+.vehicleCopy > p { margin-top: 24px; }
+.vehicleItems { margin-top: 36px; border-top: 1px solid var(--ds-line); }
+.vehicleItems article { display: grid; grid-template-columns: 40px 1fr; gap: 16px; padding: 22px 0; border-bottom: 1px solid var(--ds-line); }
+.vehicleItems h3 { margin: 0 0 6px; }
+
+.processHead { max-width: 620px; }
+.process { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 44px; }
+.process article { min-height: 220px; padding: 30px; border: 1px solid var(--ds-line); border-radius: 14px; background: #fff; }
+.process h3 { margin-top: 28px; }
+.cta { padding-block: 92px; background: #1d1e1e; color: #fff; text-align: center; }
+.cta h2 { color: #fff !important; }
+.cta p { max-width: 660px; margin: 18px auto 0; color: rgb(255 255 255 / 68%); font-size: 16px; line-height: 1.8; }
+.cta a { display: inline-flex; min-height: 48px; margin-top: 28px; padding: 0 22px; align-items: center; gap: 12px; border-radius: 9px; background: #fff; color: #1d1e1e; font-size: 14px; font-weight: 650; }
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; min-height: 0; padding-block: 72px 92px; }
+  .heroCopy { max-width: 680px; }
+  .heroMedia { min-height: 520px; }
+  .regions { grid-template-columns: repeat(2, 1fr); }
+  .regions article:not(:nth-child(5n + 1)) { padding-left: 0; border-left: 0; }
+  .regions article:nth-child(even) { padding-left: 22px; border-left: 1px solid var(--ds-line); }
+  .vehicleSection { grid-template-columns: 1fr; }
+  .vehicleMedia { min-height: 500px; }
+}
+
+@media (max-width: 560px) {
+  .hero { gap: 42px; padding-block: 56px 76px; }
+  .heroCopy h1 { font-size: 38px; line-height: 1.08; }
+  .heroCopy > p:last-of-type { margin-top: 20px; font-size: 16px; }
+  .actions { align-items: flex-start; flex-direction: column; gap: 18px; margin-top: 28px; }
+  .heroMedia { min-height: 320px; }
+  .heroInset { right: -8px; bottom: -28px; height: 40%; border-width: 5px; }
+  .hotelSection, .processSection { padding-block: 62px; }
+  .sectionHead, .coverageHead { grid-template-columns: 1fr; gap: 22px; }
+  .hotelPoints { grid-template-columns: 1fr; margin: 40px 0 62px; }
+  .hotelPoints article, .hotelPoints article + article { padding: 24px 0; border-left: 0; border-bottom: 1px solid var(--ds-line); }
+  .hotelPoints article:last-child { border-bottom: 0; }
+  .regions { grid-template-columns: 1fr; margin-top: 28px; }
+  .regions article, .regions article:nth-child(even) { min-height: 0; padding: 20px 0; border-left: 0; }
+  .regions h3 { margin-bottom: 5px; }
+  .vehicleSection { gap: 44px; padding-block: 64px; }
+  .vehicleMedia { min-height: 330px; }
+  .vehicleItems { margin-top: 28px; }
+  .process { grid-template-columns: 1fr; gap: 14px; margin-top: 32px; }
+  .process article { min-height: 0; padding: 25px; }
+  .process h3 { margin-top: 18px; }
+  .cta { padding-block: 66px; }
+}

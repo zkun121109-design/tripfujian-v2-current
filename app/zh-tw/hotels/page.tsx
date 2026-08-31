@@ -1,0 +1,2 @@
+import type {Metadata} from "next";import LocalizedHotelsPage from "../../localized-hotels-page";
+export const metadata:Metadata={title:"福建合作飯店｜五星級飯店與住宿安排｜與君游",description:"介紹與君游在福州、廈門、泉州及福建其他地區可協調的五星級合作飯店、房型選擇與住宿安排。",alternates:{canonical:"/zh-tw/hotels",languages:{"zh-CN":"/hotels","zh-Hant":"/zh-tw/hotels",en:"/en/hotels","x-default":"/hotels"}}};export default function HotelsPage(){return <LocalizedHotelsPage locale="zh-TW"/>}

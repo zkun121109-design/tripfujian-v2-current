@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>与君游首页主图候选</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: #171717;
+        background: #f4f3f0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+      header {
+        width: min(1440px, calc(100% - 48px));
+        margin: 0 auto;
+        padding: 48px 0 30px;
+      }
+      header h1 { margin: 0 0 10px; font-size: clamp(30px, 4vw, 54px); letter-spacing: -.04em; }
+      header p { margin: 0; color: #686868; font-size: 16px; line-height: 1.7; }
+      main { width: min(1440px, calc(100% - 48px)); margin: 0 auto 72px; display: grid; gap: 32px; }
+      article { overflow: hidden; border-radius: 24px; background: #e9e8e4; box-shadow: 0 14px 40px rgba(0,0,0,.10); }
+      .device-label { margin: 0; padding: 13px 18px; color: #555; background: white; font-size: 13px; font-weight: 700; letter-spacing: .08em; }
+      .device-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(300px, .5fr); gap: 18px; padding: 18px; }
+      .hero { position: relative; min-height: 520px; aspect-ratio: 16 / 6; overflow: hidden; }
+      .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(90deg, rgba(7,15,20,.78) 0%, rgba(7,15,20,.53) 38%, rgba(7,15,20,.08) 75%);
+      }
+      .copy { position: relative; z-index: 1; width: min(1080px, calc(100% - 80px)); margin: 0 auto; padding-top: clamp(90px, 10vw, 150px); color: white; }
+      .eyebrow { margin: 0 0 18px; color: #ff625a; font-size: 14px; font-weight: 700; letter-spacing: .08em; }
+      .copy h2 { max-width: 620px; margin: 0; font-size: clamp(46px, 5vw, 76px); line-height: .98; letter-spacing: -.06em; }
+      .copy > p:not(.eyebrow) { max-width: 610px; margin: 24px 0 28px; font-size: 18px; line-height: 1.8; }
+      .mock-form { display: flex; align-items: center; width: min(720px, 100%); min-height: 76px; padding: 10px 12px 10px 24px; border-radius: 16px; color: #555; background: rgba(255,255,255,.96); }
+      .mock-form span { flex: 1; }
+      .mock-form b { padding: 18px 30px; border-radius: 12px; color: white; background: #d4534b; }
+      .hero.tablet { min-height: 560px; aspect-ratio: 4 / 3; border-radius: 16px; }
+      .hero.tablet .copy { width: calc(100% - 52px); padding-top: 185px; }
+      .hero.tablet .copy h2 { font-size: clamp(42px, 4vw, 60px); }
+      .hero.tablet .mock-form { max-width: 620px; }
+      .hero.mobile { width: 100%; max-width: 390px; min-height: 570px; aspect-ratio: 390 / 570; border-radius: 16px; justify-self: center; }
+      .hero.mobile::after { background: linear-gradient(180deg, rgba(7,15,20,.12), rgba(7,15,20,.67) 57%, rgba(7,15,20,.88)); }
+      .hero.mobile .copy { width: calc(100% - 36px); padding-top: 245px; }
+      .hero.mobile .copy h2 { font-size: 42px; }
+      .hero.mobile .copy > p:not(.eyebrow) { margin: 18px 0; font-size: 14px; line-height: 1.6; }
+      .hero.mobile .eyebrow { margin-bottom: 12px; font-size: 12px; }
+      .hero.mobile .mock-form { min-height: 60px; padding-left: 14px; font-size: 13px; }
+      .hero.mobile .mock-form b { padding: 13px 14px; }
+      article:nth-child(1) img { object-position: center 50%; }
+      article:nth-child(2) img { object-position: center 48%; }
+      article:nth-child(3) img { object-position: center 52%; }
+      article:nth-child(4) img { object-position: center 48%; }
+      article:nth-child(5) img { object-position: center 47%; }
+      article:nth-child(6) img { object-position: center 50%; }
+      article:nth-child(7) img { object-position: center 50%; }
+      @media (max-width: 700px) {
+        header, main { width: min(100% - 24px, 1440px); }
+        header { padding-top: 28px; }
+        main { gap: 20px; }
+        article { border-radius: 18px; }
+        .hero.desktop { min-height: 440px; aspect-ratio: auto; }
+        .hero.desktop .copy { width: calc(100% - 36px); padding-top: 135px; }
+        .hero.desktop .copy h2 { font-size: 39px; }
+        .device-grid { grid-template-columns: 1fr; padding: 12px; gap: 12px; }
+        .hero.tablet { min-height: 500px; }
+        .hero.tablet .copy { padding-top: 160px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>首页主视觉候选</h1>
+      <p>7 张均为原始照片校正后的横版效果，尚未替换正式主页。请按编号选择，之后再单独制作电脑、平板和手机构图。</p>
+    </header>
+    <main>
+      <article><section class="hero"><img src="/hero-options/hero-option-01.jpg" alt="候选01 月环与古塔"><div class="copy"><p class="eyebrow">候选 01 · 月环与古塔</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+      <article><section class="hero"><img src="/hero-options/hero-option-02.jpg" alt="候选02 海上高铁"><div class="copy"><p class="eyebrow">候选 02 · 海上高铁</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+      <article><section class="hero"><img src="/hero-options/hero-option-03.jpg" alt="候选03 城市港湾"><div class="copy"><p class="eyebrow">候选 03 · 城市港湾</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+      <article><section class="hero"><img src="/hero-options/hero-option-04.jpg" alt="候选04 海岛建筑与海岸"><div class="copy"><p class="eyebrow">候选 04 · 海岛建筑与海岸</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+      <article><section class="hero"><img src="/hero-options/hero-option-05.jpg" alt="候选05 双子塔城市全景"><div class="copy"><p class="eyebrow">候选 05 · 双子塔城市全景</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+      <article><section class="hero"><img src="/hero-options/hero-option-06.jpg" alt="候选06 厦门天际线"><div class="copy"><p class="eyebrow">候选 06 · 厦门天际线</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+      <article><section class="hero"><img src="/hero-options/hero-option-07.jpg" alt="候选07 海湾暮色"><div class="copy"><p class="eyebrow">候选 07 · 海湾暮色</p><h2>自在走进中国。</h2><p>福建本地团队，为你定制中国旅程。</p><div class="mock-form"><span>福建 / 北京 / 云南…</span><b>开始定制 →</b></div></div></section></article>
+    </main>
+    <script>
+      document.querySelectorAll("article").forEach((article) => {
+        const desktop = article.querySelector(".hero");
+        desktop.classList.add("desktop");
+
+        const desktopLabel = document.createElement("p");
+        desktopLabel.className = "device-label";
+        desktopLabel.textContent = "电脑端 · 1920 × 700 构图";
+        article.insertBefore(desktopLabel, desktop);
+
+        const grid = document.createElement("div");
+        grid.className = "device-grid";
+
+        const tabletWrap = document.createElement("div");
+        const tabletLabel = document.createElement("p");
+        tabletLabel.className = "device-label";
+        tabletLabel.textContent = "平板端 · 4:3 构图";
+        const tablet = desktop.cloneNode(true);
+        tablet.className = "hero tablet";
+        tabletWrap.append(tabletLabel, tablet);
+
+        const mobileWrap = document.createElement("div");
+        const mobileLabel = document.createElement("p");
+        mobileLabel.className = "device-label";
+        mobileLabel.textContent = "手机端 · 390 × 570 构图";
+        const mobile = desktop.cloneNode(true);
+        mobile.className = "hero mobile";
+        mobileWrap.append(mobileLabel, mobile);
+
+        grid.append(tabletWrap, mobileWrap);
+        article.append(grid);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1786594605063,
+      "tag": "0000_good_tiger_shark",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1787547307313,
+      "tag": "0001_exotic_metal_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787551026894,
+      "tag": "0002_harsh_la_nuit",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787585847615,
+      "tag": "0003_shiny_satana",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787586344656,
+      "tag": "0004_magical_giant_girl",
+      "breakpoints": true
+    }
+  ]
+}

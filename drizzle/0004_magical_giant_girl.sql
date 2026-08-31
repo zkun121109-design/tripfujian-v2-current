@@ -1,0 +1,1 @@
+CREATE INDEX `idx_analytics_visitor_created` ON `analytics_events` (`visitor_hash`,`created_at`);

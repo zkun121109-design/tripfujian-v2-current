@@ -1,0 +1,2 @@
+import type {Metadata} from "next";import LocalizedVehiclesPage from "../../localized-vehicles-page";
+export const metadata:Metadata={title:"福建包車服務｜機場接送・跨城用車・團隊巴士｜與君游",description:"依人數、行李與路線協調福建5至55座包車、機場車站接送、城市內用車與跨城交通。",alternates:{canonical:"/zh-tw/vehicles",languages:{"zh-CN":"/vehicles","zh-Hant":"/zh-tw/vehicles",en:"/en/vehicles","x-default":"/vehicles"}}};export default function VehiclesPage(){return <LocalizedVehiclesPage locale="zh-TW"/>}

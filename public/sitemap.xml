@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tripfujian.com/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/xiamen-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/xiamen-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/xiamen-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/xiamen-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/xiamen-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/xiamen-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/xiamen-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/quanzhou-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/quanzhou-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/quanzhou-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/quanzhou-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/quanzhou-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/quanzhou-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/quanzhou-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/zhangzhou-3-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/zhangzhou-3-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/zhangzhou-3-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/zhangzhou-3-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/zhangzhou-3-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/zhangzhou-3-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/zhangzhou-3-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/fuzhou-pingtan-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/fuzhou-pingtan-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/fuzhou-pingtan-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/fuzhou-pingtan-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/fuzhou-pingtan-4-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/fuzhou-pingtan-4-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/fuzhou-pingtan-4-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/sanming-5-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/sanming-5-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/sanming-5-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/sanming-5-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/sanming-5-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/sanming-5-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/sanming-5-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/fujian-grand-tour-8-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/fujian-grand-tour-8-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/fujian-grand-tour-8-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/fujian-grand-tour-8-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/fujian-grand-tour-8-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/fujian-grand-tour-8-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/fujian-grand-tour-8-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/minnan-meizhou-tulou-7-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/minnan-meizhou-tulou-7-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/minnan-meizhou-tulou-7-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/minnan-meizhou-tulou-7-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/minnan-meizhou-tulou-7-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/minnan-meizhou-tulou-7-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/minnan-meizhou-tulou-7-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/trips/xiamen-tulou-dongshan-5-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/trips/xiamen-tulou-dongshan-5-days</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/trips/xiamen-tulou-dongshan-5-days" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/trips/xiamen-tulou-dongshan-5-days" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/experiences</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/experiences" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/experiences" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/experiences" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/experiences" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/experiences</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/experiences" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/experiences" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/experiences" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/experiences" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/experiences</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/experiences" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/experiences" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/experiences" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/experiences" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/about</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/about" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/plan</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/plan" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/plan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/plan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/plan" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/plan</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/plan" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/plan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/plan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/plan" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/plan</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/plan" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/plan" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/plan" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/plan" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/privacy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/faq</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/faq" />
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/zh-tw/faq</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/faq" />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tripfujian.com/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://tripfujian.com/faq" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://tripfujian.com/zh-tw/faq" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tripfujian.com/en/faq" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tripfujian.com/faq" />
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

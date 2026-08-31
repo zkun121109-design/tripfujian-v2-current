@@ -1,0 +1,2 @@
+import type {Metadata} from "next";import LocalizedVehiclesPage from "../../localized-vehicles-page";
+export const metadata:Metadata={title:"Private Vehicles in Fujian | Yujunyou Travel",description:"Private vehicles from 5 to 55 seats, airport and station transfers, vehicles by day and intercity travel across Fujian.",alternates:{canonical:"/en/vehicles",languages:{"zh-CN":"/vehicles","zh-Hant":"/zh-tw/vehicles",en:"/en/vehicles","x-default":"/vehicles"}}};export default function VehiclesPage(){return <LocalizedVehiclesPage locale="en"/>}

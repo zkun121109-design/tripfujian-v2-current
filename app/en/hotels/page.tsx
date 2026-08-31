@@ -1,0 +1,2 @@
+import type {Metadata} from "next";import LocalizedHotelsPage from "../../localized-hotels-page";
+export const metadata:Metadata={title:"Partner Hotels in Fujian | Yujunyou Travel",description:"Selected five-star partner hotels in Fuzhou, Xiamen and Quanzhou, with hotel and room planning across Fujian.",alternates:{canonical:"/en/hotels",languages:{"zh-CN":"/hotels","zh-Hant":"/zh-tw/hotels",en:"/en/hotels","x-default":"/hotels"}}};export default function HotelsPage(){return <LocalizedHotelsPage locale="en"/>}
