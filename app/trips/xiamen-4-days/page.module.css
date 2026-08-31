@@ -1013,6 +1013,28 @@
     border-radius: 16px;
   }
 }
+.akHero { min-height: 78vh; }
+.akHero .shell { padding-bottom: 64px; }
+.akHeroLabel, .akHeroSub { letter-spacing: .16em; font-size: 12px; }
+.akHero h1 { margin: 16px 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(58px, 7vw, 92px); font-weight: 500; letter-spacing: -.045em; }
+.akHeroLine { margin: 0 0 26px; font-size: 20px; }
+.akOverview { padding: 96px 0 110px; background: #f7f5f0; }
+.akOverview > .shell { width: min(1280px, calc(100% - 96px)); margin: 0 auto; display: grid; grid-template-columns: 1.85fr 1fr; gap: 88px; }
+.akOverviewIntro h2 { max-width: 720px; margin: 10px 0 24px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(38px, 4.5vw, 62px); font-weight: 500; line-height: 1.12; letter-spacing: -.045em; }
+.akOverviewIntro > p:last-child { max-width: 700px; margin: 0; font-size: 17px; line-height: 1.8; color: var(--classic-muted); }
+.akOverviewMeta { display: grid; align-content: start; gap: 18px; padding-top: 4px; border-top: 1px solid var(--classic-line); }
+.akOverviewMeta p, .akOverviewMeta span { margin: 0; color: var(--classic-muted); font-size: 11px; letter-spacing: .16em; }
+.akOverviewMeta strong { font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 500; line-height: 1.45; }
+.akOverviewMeta a { margin-top: 14px; color: #40574a; font-weight: 700; text-decoration: none; }
+@media (max-width: 700px) {
+  .akHero { min-height: 590px; }
+  .akHero h1 { font-size: 54px; }
+  .akHeroLine { font-size: 17px; }
+  .akOverview { padding: 66px 0; }
+  .akOverview > .shell { width: calc(100% - 40px); display: block; }
+  .akOverviewIntro h2 { font-size: 40px; }
+  .akOverviewMeta { margin-top: 48px; }
+}
 
 .compactPage { background: #f7f5f0; color: #20221f; }
 .routeOverview { padding: 90px 0 72px; background: #f7f5f0; }
