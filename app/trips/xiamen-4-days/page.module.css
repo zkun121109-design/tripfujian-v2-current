@@ -1234,6 +1234,62 @@
 .classicSticky .classicPrimary { justify-content: center; }
 .classicMobileCta { display: none; }
 
+.denseProductPage { overflow-x: clip; }
+.denseHero { min-height: 610px; }
+.denseHeroRoute { margin: 22px 0 20px !important; font-size: clamp(18px, 2vw, 25px); }
+.denseItinerary { padding: 82px 0 64px; background: #f7f5f0; }
+.denseItinerary > .shell, .denseSpecs > .shell { width: min(1180px, calc(100% - 96px)); margin: 0 auto; }
+.denseItinerary h2 { margin: 0 0 54px; font-size: clamp(38px, 4.8vw, 60px); letter-spacing: -.06em; line-height: 1.1; }
+.denseItineraryGrid { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: clamp(42px, 7vw, 100px); align-items: start; }
+.denseIndex { position: sticky; top: 110px; display: grid; gap: 0; border-left: 1px solid var(--classic-line); }
+.denseIndex span { padding: 0 0 18px 18px; color: var(--classic-muted); font-size: 11px; letter-spacing: .16em; }
+.denseIndex a { display: flex; gap: 16px; padding: 14px 0 14px 18px; color: var(--classic-muted); text-decoration: none; border-top: 1px solid var(--classic-line); }
+.denseIndex a b { color: #40574a; font-size: 12px; letter-spacing: .1em; }
+.denseDay { position: relative; display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: 28px; padding: 30px 0; border-top: 1px solid var(--classic-line); }
+.denseDay:first-child { padding-top: 0; border-top: 0; }
+.denseDayLabel { color: #40574a; font-size: 12px; font-weight: 700; letter-spacing: .11em; line-height: 1.5; }
+.denseDayBody { min-width: 0; }
+.denseDayBody h3 { margin: 0 0 10px; font-size: clamp(24px, 2.5vw, 34px); letter-spacing: -.04em; line-height: 1.2; }
+.denseDayBody p { max-width: 620px; margin: 0; color: var(--classic-muted); line-height: 1.7; }
+.denseKeywords { margin-bottom: 10px !important; color: #40574a !important; font-size: 14px; }
+.denseStay { margin-top: 12px !important; font-size: 14px; }
+.denseStay b { color: var(--classic-ink); }
+.denseInlineImage { grid-column: 2; width: min(100%, 450px); aspect-ratio: 16 / 8; object-fit: cover; margin: 4px 0 10px; border-radius: 6px; }
+.denseTulouImage { grid-column: 2; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; margin: 12px 0 8px; border-radius: 6px; }
+.denseMidCta { grid-column: 2; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; padding: 18px 0 4px; border-top: 1px solid var(--classic-line); }
+.denseMidCta strong { font-size: 17px; }
+.denseMidCta span { color: var(--classic-muted); font-size: 14px; }
+.denseMidCta a { margin-left: auto; color: #40574a; font-size: 14px; font-weight: 700; text-decoration: none; }
+.denseSpecs { padding: 58px 0 72px; background: #eeece6; }
+.denseSpecs h3 { margin: 8px 0 30px; font-size: 31px; letter-spacing: -.04em; }
+.denseSpecs dl { display: grid; grid-template-columns: 1fr 1fr; gap: 0 54px; margin: 0; }
+.denseSpecs dl div { display: grid; grid-template-columns: 100px 1fr; gap: 18px; padding: 16px 0; border-top: 1px solid var(--classic-line); }
+.denseSpecs dt { font-weight: 700; }
+.denseSpecs dd { margin: 0; color: var(--classic-muted); line-height: 1.65; }
+.compactFaq h3 { margin: 8px 0 34px; font-size: 31px; letter-spacing: -.04em; }
+@media (max-width: 700px) {
+  .denseHero { min-height: 590px; }
+  .denseItinerary { padding: 66px 0 42px; }
+  .denseItinerary > .shell, .denseSpecs > .shell { width: calc(100% - 40px); }
+  .denseItinerary h2 { margin-bottom: 34px; font-size: 36px; }
+  .denseItineraryGrid { display: block; }
+  .denseIndex { position: static; display: flex; overflow-x: auto; gap: 0; margin: 0 -20px 24px; padding-left: 20px; border-left: 0; border-bottom: 1px solid var(--classic-line); }
+  .denseIndex span { display: none; }
+  .denseIndex a { flex: 0 0 auto; gap: 8px; padding: 10px 16px 12px 0; border-top: 0; font-size: 13px; }
+  .denseDay { grid-template-columns: 1fr; gap: 8px; padding: 24px 0; }
+  .denseDay:first-child { padding-top: 0; }
+  .denseDayLabel { font-size: 11px; }
+  .denseDayBody h3 { font-size: 27px; }
+  .denseInlineImage, .denseTulouImage, .denseMidCta { grid-column: 1; }
+  .denseInlineImage { width: 100%; aspect-ratio: 16 / 9; margin-top: 10px; }
+  .denseTulouImage { aspect-ratio: 16 / 9; margin-top: 10px; }
+  .denseMidCta { display: grid; gap: 5px; margin-top: 4px; }
+  .denseMidCta a { margin-left: 0; margin-top: 6px; }
+  .denseSpecs { padding: 52px 0 60px; }
+  .denseSpecs dl { grid-template-columns: 1fr; }
+  .denseSpecs dl div { grid-template-columns: 86px 1fr; gap: 12px; }
+}
+
 /* Product detail experiment: compact route-first hierarchy. */
 .productPage { overflow-x: clip; }
 .productHero .shell { padding-bottom: 54px; }
