@@ -1038,6 +1038,9 @@
 .akMetaFacts span { color: var(--classic-muted); font-size: 10px; letter-spacing: .16em; line-height: 1.6; }
 .akMetaFacts em { color: var(--classic-ink); font-size: 13px; font-style: normal; letter-spacing: .08em; }
 .akOverviewMeta a { margin-top: 14px; color: #40574a; font-weight: 700; text-decoration: none; }
+.expV3Page .akHero { min-height: 78vh; }
+.expV3Page .akHero h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(58px, 7vw, 92px); font-weight: 500; }
+.expV3Page .akOverviewIntro h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 500; }
 @media (max-width: 700px) {
   .akHero { min-height: 590px; }
   .akHero h1 { font-size: 54px; }
