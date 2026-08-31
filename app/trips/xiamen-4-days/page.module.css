@@ -1233,6 +1233,44 @@
 .classicSticky small { color: var(--classic-muted); line-height: 1.5; }
 .classicSticky .classicPrimary { justify-content: center; }
 .classicMobileCta { display: none; }
+.expV3Page { background: #f7f5f0; color: #20221f; }
+.expV3Hero { min-height: 620px; }
+.expV3Hero h1 { font-size: 58px; }
+.expV3Route { margin: 22px 0 20px !important; font-size: 24px; }
+.expV3Overview { padding: 96px 0; }
+.expV3Overview > .shell { width: min(1280px, calc(100% - 96px)); margin: auto; display: grid; grid-template-columns: 1.1fr .9fr; gap: 90px; }
+.expV3Overview h2 { margin: 10px 0 24px; font-size: 48px; line-height: 1.15; letter-spacing: -.05em; }
+.expV3Overview p { max-width: 650px; margin: 0; font-size: 17px; line-height: 1.8; color: var(--classic-muted); }
+.expV3Overview dl { margin: 0; }
+.expV3Overview dl > dt { margin-bottom: 14px; color: var(--classic-muted); font-size: 11px; letter-spacing: .16em; }
+.expV3Overview dl > div { display: grid; grid-template-columns: 100px 1fr; gap: 14px; padding: 12px 0; border-top: 1px solid var(--classic-line); }
+.expV3Overview dd { margin: 0; color: var(--classic-muted); }
+.expV3Itinerary { padding: 88px 0 42px; }
+.expV3Itinerary > .shell { width: min(1280px, calc(100% - 96px)); margin: auto; }
+.expV3Itinerary > .shell > h2 { margin: 8px 0 64px; font-size: 48px; letter-spacing: -.05em; }
+.expV3Day01, .expV3Day02 { display: grid; grid-template-columns: .85fr 1.15fr; gap: 72px; align-items: center; margin-bottom: 112px; }
+.expV3Day01 span, .expV3Day02 span, .expV3Day03 > span { color: #40574a; font-size: 12px; font-weight: 700; letter-spacing: .12em; }
+.expV3Day01 h3, .expV3Day02 h3, .expV3Day03 h3 { margin: 16px 0 14px; font-size: 31px; letter-spacing: -.04em; }
+.expV3Day01 p, .expV3Day02 p, .expV3Day03 p { max-width: 680px; margin: 0 0 12px; font-size: 17px; line-height: 1.8; color: var(--classic-muted); }
+.expV3Keywords { color: #40574a !important; font-size: 14px !important; }
+.expV3Day01 img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 6px; }
+.expV3Day02 { display: block; }
+.expV3Day02 img { display: block; width: 66%; margin-top: 28px; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 6px; }
+.expV3Day03 { max-width: 680px; margin-bottom: 60px; }
+.expV3Day03 img { display: block; width: min(100vw - 96px, 1120px); max-width: none; margin: 32px 0 0; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; }
+@media (max-width: 700px) {
+  .expV3Hero { min-height: 590px; }
+  .expV3Hero h1 { font-size: 46px; }
+  .expV3Route { font-size: 18px; }
+  .expV3Overview, .expV3Itinerary { padding: 66px 0 36px; }
+  .expV3Overview > .shell, .expV3Itinerary > .shell { width: calc(100% - 40px); display: block; }
+  .expV3Overview h2, .expV3Itinerary > .shell > h2 { font-size: 36px; }
+  .expV3Overview dl { margin-top: 44px; }
+  .expV3Day01, .expV3Day02 { display: block; margin-bottom: 72px; }
+  .expV3Day01 img { margin-top: 26px; aspect-ratio: 4 / 3; }
+  .expV3Day02 img { width: 100%; aspect-ratio: 3 / 2; }
+  .expV3Day03 img { width: 100%; margin-top: 24px; }
+}
 
 .denseProductPage { overflow-x: clip; }
 .denseHero { min-height: 610px; }

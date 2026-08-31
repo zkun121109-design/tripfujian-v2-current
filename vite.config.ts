@@ -45,7 +45,7 @@ export default defineConfig(async () => {
 
   return {
     server: {
-      allowedHosts: ["acdbentity-restored-thursday-night.trycloudflare.com"],
+      allowedHosts: ["icons-met-variations-poems.trycloudflare.com"],
       ...(isCodexSeatbeltSandbox
         ? { watch: { useFsEvents: false, usePolling: true } }
         : {}),
