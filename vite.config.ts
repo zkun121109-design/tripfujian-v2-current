@@ -45,7 +45,7 @@ export default defineConfig(async () => {
 
   return {
     server: {
-      allowedHosts: ["icons-met-variations-poems.trycloudflare.com"],
+      allowedHosts: ["holders-liberty-ultram-victoria.trycloudflare.com"],
       ...(isCodexSeatbeltSandbox
         ? { watch: { useFsEvents: false, usePolling: true } }
         : {}),
